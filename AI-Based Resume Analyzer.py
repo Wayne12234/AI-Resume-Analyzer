@@ -6,11 +6,11 @@ from pypdf import PdfReader
 
 
 # Connect Gemini API
-client = genai.Client(api_key="AIzaSyDlgbDr5nKrRvYXKLRXkhmV5YV8j80cGqo")
+client = genai.Client(api_key="YOUR API KEY")
 
 
 # Open PDF file
-reader = PdfReader("Umar_Khalid_Resume.pdf")
+reader = PdfReader("RESume.pdf")
 
 
 # Empty variable to store extracted text
